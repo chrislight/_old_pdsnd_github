@@ -52,11 +52,7 @@ def get_filter_city():
 
 
 def get_filter_month():
-    """
-    Asks user to specify a month to filter on, or choose all.
-    Returns:
-        (str) month - name of the month to filter by, or "all" for no filter
-    """
+  
     while True:
         try:
             month = input("    Enter the month with January=1, June=6 or 'a' for all:  ")
