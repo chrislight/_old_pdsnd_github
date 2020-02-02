@@ -17,3 +17,4 @@ Command
 `git status` |
 `git add` |
 `git push origin documetation` |
+`git log --all` |
