@@ -27,7 +27,7 @@ def get_filter_city():
     Returns:
         (str) city - name of the city to analyze
     """
-    # build and display the list of cities for which we have datasets
+    # build and display the list of cities for which we have datasets. updated
     cities_list = []
     num_cities = 0
 
@@ -46,7 +46,7 @@ def get_filter_city():
         if city_num in range(1, len(cities_list)+1):
             break
 
-    # get the city's name in string format from the list
+    # call the city's name in string format from the list
     city = cities_list[city_num - 1]
     return city
 
@@ -78,11 +78,7 @@ def get_filter_month():
 
 
 def get_filter_day():
-    """
-    Asks user to specify a day to filter on, or choose all.
-    Returns:
-        (str) day - day of the week to filter by, or "all" for no filter
-    """
+   
     while True:
         try:
             day = input("    Enter the day with Monday=1, Sunday=7 or 'a' for all:  ")
