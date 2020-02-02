@@ -13,6 +13,7 @@ Repository: This is repository in a local. It can be linked to multiple remote r
 
 
 Command
-git init |	
-git status |
-git add |
+`git init` |	
+`git status` |
+`git add` |
+`git push origin documetation` |

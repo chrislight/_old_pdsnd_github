@@ -46,7 +46,7 @@ def get_filter_city():
         if city_num in range(1, len(cities_list)+1):
             break
 
-    # get the city's name in string format from the list
+    # call the city's name in string format from the list
     city = cities_list[city_num - 1]
     return city
 
