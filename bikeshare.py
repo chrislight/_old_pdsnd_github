@@ -22,11 +22,15 @@ def print_processing_time(start_time):
 
 
 def get_filter_city():
+<<<<<<< .merge_file_a06888
     """
     Asks user to specify a city.
     Returns:
         (str) city - name of the city to analyze
     """
+=======
+    
+>>>>>>> .merge_file_a02824
     # build and display the list of cities for which we have datasets. updated
     cities_list = []
     num_cities = 0
@@ -52,11 +56,7 @@ def get_filter_city():
 
 
 def get_filter_month():
-    """
-    Asks user to specify a month to filter on, or choose all.
-    Returns:
-        (str) month - name of the month to filter by, or "all" for no filter
-    """
+  
     while True:
         try:
             month = input("    Enter the month with January=1, June=6 or 'a' for all:  ")
@@ -78,11 +78,7 @@ def get_filter_month():
 
 
 def get_filter_day():
-    """
-    Asks user to specify a day to filter on, or choose all.
-    Returns:
-        (str) day - day of the week to filter by, or "all" for no filter
-    """
+   
     while True:
         try:
             day = input("    Enter the day with Monday=1, Sunday=7 or 'a' for all:  ")
